@@ -632,7 +632,7 @@ class GPTClient:
             return
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "You Token ot Open Ai"
 GPT = GPTClient()
 
 
@@ -1021,3 +1021,4 @@ if __name__ == "__main__":
         main_loop()
     except KeyboardInterrupt:
         print("\nЗавершение по Ctrl+C")
+
