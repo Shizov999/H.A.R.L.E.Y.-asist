@@ -67,7 +67,7 @@ setx ELEVENLABS_API_KEY "..."
 setx ELEVENLABS_VOICE_ID "..."
 ```
 
-Важно: Не храните ключи в коде и репозитории. Убедитесь, что в `HARLEYproject.py` нет хардкода `os.environ['OPENAI_API_KEY'] = ...` перед публикацией.
+
 
 ## Настройки
 Базовые настройки собраны в `Settings` внутри `HARLEYproject.py`:
